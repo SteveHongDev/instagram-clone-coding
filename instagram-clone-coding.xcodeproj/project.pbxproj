@@ -13,6 +13,7 @@
 		49A4709D2908EBE400ED45F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A4709B2908EBE400ED45F3 /* Main.storyboard */; };
 		49A4709F2908EBE500ED45F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A4709E2908EBE500ED45F3 /* Assets.xcassets */; };
 		49A470A22908EBE500ED45F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A470A02908EBE500ED45F3 /* LaunchScreen.storyboard */; };
+		49A470B02908ED2700ED45F3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A470AF2908ED2700ED45F3 /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		49A4709E2908EBE500ED45F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A470A12908EBE500ED45F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A470A32908EBE500ED45F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A470AF2908ED2700ED45F3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		49A470942908EBE400ED45F3 /* instagram-clone-coding */ = {
 			isa = PBXGroup;
 			children = (
+				49A470AE2908ECA700ED45F3 /* Models */,
+				49A470AD2908ECA500ED45F3 /* Views */,
+				49A470AC2908ECA300ED45F3 /* ViewModels */,
+				49A470AB2908ECA100ED45F3 /* Controllers */,
+				49A470AA2908EC9F00ED45F3 /* APIs */,
+				49A470A92908EC9000ED45F3 /* Utils */,
 				49A470952908EBE400ED45F3 /* AppDelegate.swift */,
 				49A470972908EBE400ED45F3 /* SceneDelegate.swift */,
 				49A470992908EBE400ED45F3 /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				49A470A32908EBE500ED45F3 /* Info.plist */,
 			);
 			path = "instagram-clone-coding";
+			sourceTree = "<group>";
+		};
+		49A470A92908EC9000ED45F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49A470AA2908EC9F00ED45F3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		49A470AB2908ECA100ED45F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49A470AF2908ED2700ED45F3 /* MainTabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49A470AC2908ECA300ED45F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		49A470AD2908ECA500ED45F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A470AE2908ECA700ED45F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +191,7 @@
 			files = (
 				49A4709A2908EBE400ED45F3 /* ViewController.swift in Sources */,
 				49A470962908EBE400ED45F3 /* AppDelegate.swift in Sources */,
+				49A470B02908ED2700ED45F3 /* MainTabController.swift in Sources */,
 				49A470982908EBE400ED45F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +354,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.kumoh.s20191255.instagram-clone-coding";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,6 +385,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.kumoh.s20191255.instagram-clone-coding";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
